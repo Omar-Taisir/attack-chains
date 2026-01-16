@@ -224,14 +224,14 @@ Harden Jenkins authentication and permissions
 Apply least-privilege principles across all services
 
 ## MITRE ATT&CK Mapping
-Tactic	Technique	ID
-Reconnaissance	Active Scanning	T1595
-Credential Access	Brute Force	T1110
-Credential Access	Valid Accounts	T1078
-Execution	Command and Scripting Interpreter	T1059
-Lateral Movement	Remote Services (SSH)	T1021
-Discovery	Network Service Discovery	T1046
-Privilege Escalation	Exploitation for Privilege Escalation	T1068
+
+Reconnaissance	Active Scanning	T1595                                                                           
+Credential Access	Brute Force	T1110                                                                              
+Credential Access	Valid Accounts	T1078                                                                                                         
+Execution	Command and Scripting Interpreter	T1059                                                                             
+Lateral Movement	Remote Services (SSH)	T1021                                                                                   
+Discovery	Network Service Discovery	T1046                                                                            
+Privilege Escalation	Exploitation for Privilege Escalation	T1068                                                                        
 
 ## Conclusion
 This engagement demonstrates how an exposed web application combined with weak credentials and poor internal segmentation can lead to full system compromise.
