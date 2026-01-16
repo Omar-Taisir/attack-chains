@@ -9,7 +9,7 @@ WordPress → Jenkins → Root Access
 **Engagement Type:** Red Team / Adversary Emulation                            
 **Objective:** Simulate a real-world attacker compromising an externally exposed service and achieving full system control                                       
 **Final Outcome:** Root-level access obtained                               
-**Assessed Difficulty:** Hard
+**Assessed Difficulty:** Hard                                                                          
 **Date:** 08 Jan 2026
 
 ## Executive Summary
@@ -266,3 +266,4 @@ This engagement demonstrates how a single weakly protected web application can s
 
 The attack relied entirely on common misconfigurations, credential reuse, and insufficient internal service isolation. No zero-day vulnerabilities were required. In a real-world environment, this level of compromise would likely result in full data exposure, service disruption, and potential lateral movement into adjacent systems.
 ```
+
