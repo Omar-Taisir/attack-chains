@@ -9,7 +9,7 @@ WordPress → Jenkins → Root Access
 **Engagement Type:** Red Team / Adversary Emulation                            
 **Objective:** Simulate a real-world attacker compromising an externally exposed service and achieving full system control                                       
 **Final Outcome:** Root-level access obtained                               
-**Assessed Difficulty:** Hard
+**Assessed Difficulty:** Hard                                                                               
 **Date:** 08 Jan 2026
 
 ## Executive Summary
