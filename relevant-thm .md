@@ -6,7 +6,7 @@ External Compromise → SYSTEM Privilege Escalation
 **Engagement Type:** Red Team / Adversary Simulation                                              
 **Target Host:** Relevant (Windows Server 2016)                                                        
 **Platform:** TryHackMe (Lab Environment)                                                       
-**Assessed Difficulty:** Medium
+**Assessed Difficulty:** Medium                                                                                   
 **Date:** 09 Jan 2026
 
 ## Executive Summary
@@ -256,3 +256,4 @@ Command and Control
 ```bash
 T1071.001 – Web-based Command and Control
 ```
+
