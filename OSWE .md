@@ -8,27 +8,27 @@ This document lists advanced web labs completed to develop OSWE-level skills.
 Only selected labs include full technical writeups.
 
 ---
-OSEP Writeups (10 Laps)
-AMSI/ETW Bypass Development - Custom evasion tool
+## OSWE Writeups (10 Laps)
 
-Process Injection Framework - Multiple injection methods
+PortSwigger: HTTP Request Smuggling - CL.TE/TE.CL/TE.TE
 
-WMI/DCOM Lateral Movement - Enterprise lateral movement
+Business Logic Payment Bypass - Real e-commerce app
 
-Custom C2 Framework - Complete command & control system
+White-Box: Java Spring Boot Audit - Full code review
 
-AD CS Certificate Abuse - ESC1-ESC8 exploitation
+SSRF Chain to Cloud Takeover - AWS/Azure/GCP compromise
 
-Golden/Silver Ticket Attacks - Kerberos ticket manipulation
+SSTI to RCE - Multiple template engines
 
-SCCM Site Takeover - Enterprise software deployment abuse
+Advanced JWT Attacks - Algorithm confusion + kid injection
 
-Exchange Server Compromise - Mail server exploitation
+GraphQL Injection - Introspection + batching attacks
 
-Full Enterprise Campaign - 0 to Domain Admin
+Race Condition Exploitation - Inventory manipulation
 
-Detection Evasion Report - SIEM/EDR evasion techniques
+Custom SQLi Scanner Development - Tool creation report
 
+48-Hour Web App Audit - Complete application assessment
 
 
 ## PortSwigger Expert Labs (15 Laps)
@@ -75,3 +75,4 @@ Detection Evasion Report - SIEM/EDR evasion techniques
 113. File Upload Exploitation Framework
 114. SSRF Testing Tool
 115. Complete Web Exploit Chain (3+ vulns)
+
