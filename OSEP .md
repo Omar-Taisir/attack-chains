@@ -4,7 +4,28 @@
 **Focus:** Enterprise attacks, Active Directory, lateral movement, pivoting                                 
 **Platforms:** TryHackMe, GOAD, DetectionLab                                  
 
-OSEP-LEVEL OR HIGHER (35 Laps)
+## OSEP Writeups (10 Laps)
+These require red team campaign reports:
+
+AMSI/ETW Bypass Development - Custom evasion tool
+
+Process Injection Framework - Multiple injection methods
+
+WMI/DCOM Lateral Movement - Enterprise lateral movement
+
+Custom C2 Framework - Complete command & control system
+
+AD CS Certificate Abuse - ESC1-ESC8 exploitation
+
+Golden/Silver Ticket Attacks - Kerberos ticket manipulation
+
+SCCM Site Takeover - Enterprise software deployment abuse
+
+Exchange Server Compromise - Mail server exploitation
+
+Full Enterprise Campaign - 0 to Domain Admin
+
+Detection Evasion Report - SIEM/EDR evasion techniques
 ## Advanced Evasion Techniques (10 Laps)
 
 116. AMSI Bypass - Multiple methods
@@ -48,4 +69,5 @@ OSEP-LEVEL OR HIGHER (35 Laps)
 150. WSUS Exploitation
 151. Hyper-V Escape
 152. Container Breakouts
+
 
