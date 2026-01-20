@@ -4,6 +4,26 @@
 **Platforms:** TryHackMe, VulnHub
 
 ---
+## OSCP Writeups (10 Laps)
+Wreath Network - 7-box chain (Insane)
+
+Internal - Double pivot network (Hard)
+
+Buffer Overflow Complete Chain - Custom BOF machine
+
+Attacktive Directory - Full AD compromise (Hard)
+
+PG Practice: Slort - OSCP exam style machine
+
+Daily Bugle - Joomla to root (Hard)
+
+Dogcat - Container escape (Hard)
+
+VulnHub: Hackfest 2016 - Full network (Insane)
+
+24-Hour Exam Simulation - 3 machines timed
+
+Custom Vulnerability Chain - 3-vuln chain development
 ## Insane Difficulty Network Machines (25 Laps)
 
 1.  Wreath Network (THM Pro) - 7-box chain
@@ -85,4 +105,5 @@
 73. HTB: Blackfield
 74. HTB: Intelligence
 75. GOAD Practice 1 - Basic AD
+
 
