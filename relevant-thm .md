@@ -204,56 +204,29 @@ Apply least-privilege principles to service accounts
 
 Monitor for token impersonation and suspicious privilege usage
 ```
+## MITRE ATT&CK Mapping
+
+> Target: Relevant (Windows Server 2016)  
+> Difficulty: Medium  
+
+| Tactic                | Technique                                      | ID         |
+|----------------------|-----------------------------------------------|------------|
+| Initial Access       | Exploit Public-Facing Application             | T1190      |
+| Initial Access       | External Remote Services (SMB)                | T1133      |
+| Execution            | Windows Command Shell                         | T1059.003  |
+| Execution            | PowerShell                                    | T1059.001  |
+| Persistence          | Web Shell                                     | T1505.003  |
+| Privilege Escalation | Token Impersonation                           | T1134.001  |
+| Privilege Escalation | Exploitation for Privilege Escalation         | T1068      |
+| Credential Access    | Credentials in Files                          | T1552.001  |
+| Discovery            | File and Directory Discovery                  | T1083      |
+| Discovery            | Remote System Discovery                       | T1018      |
+| Lateral Movement     | SMB / Windows Admin Shares                    | T1021.002  |
+| Command & Control    | Web-Based Command and Control                 | T1071.001  |
+
 ## Conclusion
 ```bash
 This engagement demonstrates how multiple low-to-medium severity misconfigurations can be chained together to achieve full SYSTEM compromise.
 
 An external attacker with no prior access was able to fully control the host without exploiting memory corruption vulnerabilities or zero-day exploits, emphasizing the importance of secure configuration, credential hygiene, and privilege management.
 ```
-## MITRE ATT&CK Mapping
-
-> Target: Relevant (Windows Server 2016)
-> Difficulty: Medium
-
-Initial Access
-```bash
-
-T1190 – Exploit Public-Facing Application
-
-T1133 – External Remote Services (SMB)
-```
-Execution
-```bash
-T1059.003 – Windows Command Shell
-
-T1059.001 – PowerShell
-```
-Persistence
-```bash
-T1505.003 – Web Shell
-```
-Privilege Escalation
-```bash
-T1134.001 – Token Impersonation
-
-T1068 – Exploitation for Privilege Escalation
-```
-Credential Access
-```bash
-T1552.001 – Credentials in Files
-```
-Discovery
-```bash
-T1083 – File and Directory Discovery
-
-T1018 – Remote System Discovery
-```
-Lateral Movement
-```bash
-T1021.002 – SMB/Windows Admin Shares
-```
-Command and Control
-```bash
-T1071.001 – Web-based Command and Control
-```
-
