@@ -163,12 +163,15 @@ Monitor lateral movement and credential abuse
 Regularly audit Active Directory permissions
 
 ## MITRE ATT&CK Mapping
-Reconnaissance	Active Scanning	T1595                                                       
-Initial Access	Valid Accounts	T1078                                                      
-Credential Access	Credential Dumping	T1003                                         
-Lateral Movement	Remote Services	T1021                                            
-Discovery	Account Discovery	T1087                                     
-Privilege Escalation	Abuse of Privileged Accounts	T1068                                         
+
+| Tactic                | Technique                         | ID     |
+|----------------------|----------------------------------|--------|
+| Reconnaissance       | Active Scanning                  | T1595  |
+| Initial Access       | Valid Accounts                   | T1078  |
+| Credential Access    | Credential Dumping               | T1003  |
+| Lateral Movement     | Remote Services                  | T1021  |
+| Discovery            | Account Discovery                | T1087  |
+| Privilege Escalation | Abuse of Privileged Accounts     | T1068  |                                 
 
 ## Conclusion
 The Wreath engagement demonstrates how common misconfigurations and poor credential hygiene can allow an external attacker to fully compromise an Active Directory environment.
