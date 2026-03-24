@@ -9,7 +9,9 @@ Wreath Network - 7-box chain (Insane)
 
 Internal - Double pivot network (Hard)
 
-Buffer Overflow Complete Chain - Custom BOF machine
+HackPark - THM Privilege Escalation Windows (Medium)
+
+Buffer Overflow Complete Chain - Custom BOF machine (BrainStorm, Medium)
 
 Attacktive Directory - Full AD compromise (Hard)
 
