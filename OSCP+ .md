@@ -1,7 +1,9 @@
 # OSCP+ Practice Labs
 **Author:** Omar Taisir Abu Zahra
 **Focus:** Linux, Windows, Web, Privilege Escalation
+
 **Platforms:** TryHackMe, VulnHub
+
 **Course:** https://www.youtube.com/playlist?list=PL5dZpxpUkHPOeYRHNLOCapZssjgwG6lVr
 ---
 ## OSCP Writeups (10 Laps)
